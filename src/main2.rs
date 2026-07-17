@@ -10,4 +10,6 @@ use std::io;
 fn main() {
     // Program execution starts here.
     // Empty parentheses () mean this function takes no parameters.
+    println!("Guess The number");
+    println!("Please input ypur guess")
 }
