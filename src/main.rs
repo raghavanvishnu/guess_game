@@ -1,5 +1,6 @@
 use std::io; // use stnadard librarys input output - this is a module
 // standard is preloaded
+use rand::Rng;//for gnerating random numbers
 
 
 fn main() {// we now have the opener of teh function here
@@ -18,17 +19,16 @@ let apples = 5;
 println!("Apples = {apples}");
 
 //mut here helps
-let mut guess = String::new(); // we create a mutble variable 
+let mut _guess = String::new(); // we create a mutble variable 
 // mutable means it can be altetred
 // in contrast a 
 
 io::stdin()
-  .read_line(&mut guess)// & indicates reference
+  .read_line(&mut _guess)// & indicates reference
   //mut indicates its mutyable/ changing
-
   .expect("Failed to read line");
 
-println!("you guessed: {guess}");// println is a print func/macro
+println!("you guessed: {_guess}");// println is a print func/macro
 }//
 
 
