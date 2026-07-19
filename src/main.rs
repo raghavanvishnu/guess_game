@@ -9,11 +9,15 @@ fn main() {// we now have the opener of teh function here
   // and start from here
 println!("Guess the number");
 // we now add a second comment here
-println!("Enter your guess");
-// we now proceed further
-
 // sample line for contrast
+let secret_number= rand::thread_rng().gen_range(1..=100);// we assign secret no
+// random no generator 
+// rand contains rng function
+println!("Your secret number is : {secret_number}");
+// next one
+println!("Enter your guess");
 
+// we now proceed further
 let apples = 5;
 // we oprint
 println!("Apples = {apples}");
