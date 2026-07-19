@@ -11,9 +11,9 @@ fn main() {
     // Program execution starts here.
     // Empty parentheses () mean this function takes no parameters.
     println!("Guess The number");
-    println!("Please input ypur guess");
+    println!("Please input ypur _guess");
 
-    let mut guess = String::new();// assigned a mutable variable 
+    let mut _guess = String::new();// assigned a mutable variable 
     // this is a variable of type string
     //the staring instance is empty
 
