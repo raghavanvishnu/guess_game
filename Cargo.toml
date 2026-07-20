@@ -1,7 +1,8 @@
-[package]
+[package]# this is a header
 name = "guess_game"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
+[dependencies]# This is a header
 rand = "0.8.5"
+#// we add dependemcies here?
