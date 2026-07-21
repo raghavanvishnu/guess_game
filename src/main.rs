@@ -26,12 +26,13 @@ println!("you guessed: {_guess}");// println is a print func/macro
 
 // We now add the code to compare the guess
 
-match _guess.cmp(& secret_number){
+//match _guess.cmp(&secret_number)
+//{
 Ordering::Less => println!("Too Small"),
 Ordering::Equal => println!("You win"),
 Ordering:: Greater=> println!("Too Large")
 
-}
+//}
 
 
 }//
